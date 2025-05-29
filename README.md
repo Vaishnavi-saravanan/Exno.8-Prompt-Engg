@@ -1,133 +1,99 @@
-# Exno.8-Prompt-Engg
-# Date:21-05-2025
-# Register no: 212222230165
-# Aim: To perform the Exploration of Prompting Techniques for Audio Generation
-# Algorithm: Explore how various prompting techniques can be used to generate and manipulate audio content (e.g., music, sound effects, voice narration) using AI model.
+#  Prompt Engineering for Audio Generation (Ex. No. 9)
 
-# AI-Tool Required:
-## Suno AI (https://suno.com/)
+## Date
+30-05-2025
 
-# 🎧 PROMPTING TECHNIQUES USED
-## Audio 1:
-
->"Create a cinematic ambient track that begins with soft rainfall and a gentle breeze layered behind an emotional solo piano. The piano should follow a slow, melancholic melody. As the track progresses, slowly introduce distant thunder rumbles. At the midpoint, add a single loud thunderclap for dramatic tension. Afterward, let the piano gradually slow down and fade, leaving only the ambient rain and breeze as the track ends."
-
-# 🎙️ OUTPUT LINK:
-https://drive.google.com/file/d/10kb1n4RpuQfUOaCeQmPZzD5iJbulpRZ2/view?usp=drivesdk
-
-# Audio 2:
-
->“A lone astronaut drifts through the dark silence of space, with only the hum of life support echoing inside the helmet. In the distance, a mysterious alien signal pulses—a rhythmic sound, growing louder. Suddenly, static interferes, and an ominous voice whispers coordinates… then silence.”
-
-## OUTPUT LINK:
-https://drive.google.com/file/d/10MwdZsakSIu67BtSeVgGH6Cy63W95b8g/view?usp=drivesdk
+## Register No.
+212222230165
 
 
-# PROCEDURE: Using Suno AI for Music-Based Audio Generation
-## Step-by-Step Procedure
-### 1.Log in / Sign Up
 
-Go to https://suno.com/
+##  Aim
+To explore the effectiveness of prompting techniques in generating immersive and thematic audio using AI-based tools like **Suno AI**.
 
-Create an account or log in using your credentials.
 
-### 2.Go to Music Creation Tool
 
-Click on Create > Custom Mode (Custom Prompt + Style).
+## Algorithm
+Explore how various styles of prompting influence the AI's ability to generate audio aligned with the intended genre, emotion, and narrative flow.
 
-### 3.Enter a Detailed Prompt
 
-Use creative prompts like:
-“A ghostly waltz echoes through a foggy graveyard with whispers and haunting violins...”
 
-## 4.Choose Mood and Style (if available)
+##  AI Tool Used
+[Suno AI – Music Generator](https://suno.com)
 
-Genre: Ambient, Cinematic, Horror
 
-Mood: Mysterious, Dark, Sad
 
-Tempo: Slow
+## Prompting Techniques Used
 
-## 5.Generate and Preview Audio
+### Audio 1: *Fantasy Adventure Theme*
+> **Prompt:**  
+> "Compose an adventurous orchestral score that begins with soft strings and a flute to represent a magical forest. Slowly introduce harp glissandos and subtle chimes. As the journey intensifies, layer in bold brass, timpani, and choir chants to convey epic scale. End the track with a peaceful return to the forest theme using solo violin and wind sounds."
 
-Click Generate. Wait for the model to render your audio.
+# Output 
+# Drive Link
+(https://drive.google.com/file/d/1VnHwzNeDihGcC8Gl4MdcxunPApCsxX6Q/view?usp=sharing)
 
-## 6.Download the Output
 
-After rendering, click the download button to save the MP3 file locally.
 
-## 7.Analyze or Use in Projects
+###  Audio 2: *Post-Apocalyptic Suspense*
+> **Prompt:**  
+> "A dark, dystopian world where survivors move through an abandoned city. The audio begins with distant industrial echoes, metallic creaks, and footsteps on rubble. A low synth hum pulses beneath. Sudden bursts of static and broken radio transmissions interrupt the silence. As tension rises, distorted alarms fade in, then everything collapses into eerie silence."
+# Output 
+# Drive Link
+(https://drive.google.com/file/d/1dkHmOdzcSidyh3uIM17aEFq3RRp9Wu7W/view?usp=sharing)
 
-Use tools like Audacity to edit or analyze waveform, frequency, mood shifts, etc.
 
-# Suggested Use Cases
 
-1.Ghost stories and horror podcast intros
+##  Procedure: Generating Thematic Audio with Suno AI
 
-2.Ambient music for Halloween or eerie environments
+1. Visit [https://suno.com](https://suno.com) and log in/sign up.
+2. Click **Create > Custom Mode**.
+3. Input the detailed audio prompt.
+4. Choose style settings (genre, mood, tempo).
+5. Click **Generate** and wait for the result.
+6. Download the audio output (MP3).
+7. Analyze using tools like Audacity or Python.
 
-3.Soundtracks for short films or suspense animations
 
-4.Interactive haunted house background music
 
-# 🎧 Audio Comparison Report: Ghost Theme vs Sci-Fi Suspense
-## Files Compared
+## Audio Comparison Table
 
-ghost_theme.mp3 – Waltz with eerie instruments and whispers
+| Feature                  | Fantasy Adventure              | Post-Apocalyptic Suspense         |
+|--------------------------|--------------------------------|-----------------------------------|
+| **Mood**                 | Uplifting, magical             | Tense, dark, gritty               |
+| **Amplitude Pattern**    | Rise → Climax → Fade           | Flat → Static Bursts → Silence    |
+| **Instrumentation**      | Strings, brass, flute, choir   | Synth, static, metal, radio       |
+| **Atmosphere**           | Mystical forest to epic quest  | Desolate urban tension            |
 
-sci_fi_signal.mp3 – Futuristic synth pads with alien radio pulses
 
-# 🎼 Waveform Analysis
 
-| Feature               | Ghost Theme (1.mp3)            | Sci-Fi Suspense (2.mp3)             |
-| --------------------- | ------------------------------ | ----------------------------------- |
-| **Mood**              | Eerie, slow, mysterious        | Futuristic, suspenseful, dark       |
-| **Amplitude Pattern** | Wavy, minor spikes at whispers | Starts flat, spikes at static burst |
-| **Instrumentation**   | Piano, violin, whispers, wind  | Synth, static, bass pulse           |
-| **Rhythm**            | Waltz-like, 3/4 beat           | Irregular, sci-fi ambient pacing    |
-| **Atmosphere**        | Haunted graveyard at night     | Outer space with alien encounter    |
+##  Frequency Spectrum Summary
 
-#  Frequency Spectrum Analysis
+| Metric                   | Fantasy Adventure              | Post-Apocalyptic Suspense         |
+|--------------------------|--------------------------------|-----------------------------------|
+| **Dominant Frequencies** | Mid-high (melodic instruments) | Low-mid (electronic pulses)       |
+| **Dynamic Shifts**       | Peaceful → Epic → Calm         | Calm → Interference → Collapse    |
 
-| Metric                   | Ghost Theme                        | Sci-Fi Suspense                |
-| ------------------------ | ---------------------------------- | ------------------------------ |
-| **Dominant Frequencies** | Mid-high (piano, whispers)         | Low-mid (synth, static)        |
-| **Bass Content**         | Light bass (wind, cello undertone) | Strong bass during signal drop |
-| **Tonal Range**          | Warm to cold, eerie intervals      | Wide dynamic contrast          |
-| **Dynamic Shifts**       | Soft → whisper → sudden silence    | Calm → static burst → silence  |
 
-# Technical Comparison Summary
 
-| Feature                   | Ghost Theme (1.mp3)               | Sci-Fi Suspense (2.mp3)          |
-| ------------------------- | --------------------------------- | -------------------------------- |
-| **Narrative Flow**        | Cyclical: eerie → silence → eerie | Linear: space → signal → silence |
-| **Instrumentation Focus** | Classical + ambient               | Electronic + sci-fi elements     |
-| **Best Use Case**         | Haunted storytelling              | Space-themed games/videos        |
+##  Suggestions
 
-#  Suggestions
-##  Use Audio 1 (Ghost Theme) for:
+- Use **Fantasy Adventure** for:
+  - Fantasy films, game quests, magical scenes
+- Use **Post-Apocalyptic** for:
+  - Dystopian sci-fi, survival games, suspense videos
 
-• Horror/ghost story narration
 
-• Dark ambient scenes
 
-• Halloween-themed experiences
+## 🛠 Tools Used
 
-##  Use Audio 2 (Sci-Fi Suspense) for:
+- [Suno AI](https://suno.com) – Audio generation via custom prompt
+- **Audacity** – Audio waveform & spectrogram analysis
+- **Python** (`pydub`, `librosa`, `matplotlib`) – Audio data evaluation
 
-• Space games
 
-• Sci-fi podcasts
 
-• Tension-building intros
+## Result
 
-#  Tools Used for Analysis
-• Audacity (Waveform + Frequency Spectrograms)
-
-• Python (pydub, scipy, matplotlib) for detailed audio metrics
-
-• Suno AI for creative prompt-based music generation
-
-#  Result:
-The prompts used in Suno AI successfully generated thematically rich and immersive audio tracks. The experiment illustrates how creative and mood-specific descriptions can guide AI in producing high-quality, genre-matching audio content.
+Creative and structured prompting via Suno AI resulted in thematically aligned and immersive audio experiences. This confirms that AI audio generation responds well to narrative-driven, descriptive, and mood-specific prompts.
 
